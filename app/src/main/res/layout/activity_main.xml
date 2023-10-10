@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/outlinedButton"
+        style="@style/MyOutlinedButtonStyle"
+        android:text="@string/outline_button"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/deals"
+        android:drawableRight="@drawable/v_more"
+        android:drawableTint="@color/base_colour"
+        android:drawablePadding="8dp"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:drawableLeft="@drawable/add"
+        android:drawableRight="@drawable/call"
+        android:drawableTint="@color/white"
+        android:text="@string/contained_button"
+        style="@style/MyContainedButtonStyle"
+        tools:ignore="RtlHardcoded" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabButton"
+        style="@style/MyFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/add"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

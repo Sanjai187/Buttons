@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Buttons</string>
+    <string name="outline_button">Outline button</string>
+    <string name="contained_button">Contained Button</string>
+    <string name="button_clicked">Outline Button Clicked</string>
+    <string name="contained_button_clicked">Contained Button Clicked</string>
+    <string name="floating_action_button_clicked">Floating Action button clicked</string>
+</resources>
